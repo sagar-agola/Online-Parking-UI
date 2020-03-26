@@ -172,7 +172,7 @@ section#home-header .banner-text {
   padding: 0 5rem;
 }
 
-section#home-header #search {
+section #search {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -183,28 +183,28 @@ section#home-header #search {
   font-size: 1.2rem;
 }
 
-section#home-header select {
+section #search select {
   border: none;
   outline: none;
   margin-right: 1rem;
   font-size: 1.2rem;
 }
 
-section#home-header select:focus {
+section #search select:focus {
   box-shadow: 0 0 0 0.2rem rgba(0,0,0,0);
 }
 
-section#home-header input {
+section #search input {
   border: none;
   padding: 1.2rem;
   outline: none;
 }
 
-section#home-header input:focus {
+section #search input:focus {
   box-shadow: 0 0 0 0.2rem rgba(0,0,0,0);
 }
 
-section#home-header input[type=submit] {
+section #search input[type=submit] {
   padding: 1rem 4rem;
   border-radius: .4rem;
   border: 1px solid #008fd6;
@@ -213,7 +213,7 @@ section#home-header input[type=submit] {
   transition: all .3s ease-in-out;
 }
 
-section#home-header input[type=submit]:hover {
+section #search input[type=submit]:hover {
   background-color: #fff;
   color: #008fd6;
 }
@@ -423,6 +423,77 @@ section#home-contact input[type=submit] {
 section#home-contact input[type=submit]:hover {
   background-color: #fff;
   color: #008fd6;
+}
+
+/* SEARCH RESULTS */
+section#search-results-header {
+  padding-top: 40px;
+  height: 200px;
+  background-color: #eee;
+}
+
+section#results-header {
+  padding: 0 0 1rem 0;
+  background-color: #eee;
+}
+
+section#results-content {
+  padding: 1rem 0 2rem 0;
+  background-color: #eee;
+}
+
+section#results-content .box {
+  background-color: #fff;
+  border-radius: 0;
+  border: 1px solid #fff;
+  padding: 0;
+  margin-bottom: 2rem;
+  transition: all .3s ease-in-out;
+}
+
+section#results-content .box .header {
+  color: #333;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+section#results-content .box p {
+  padding: .25rem 1rem;
+  margin: 0;
+}
+
+section#results-content .box .footer {
+  border-top: 1px solid #ccc;
+  padding: 1rem;
+  margin-top: .5rem;
+  text-align: right;
+}
+
+section#results-content .box .footer a {
+  background-color: #008fd6;
+  color: #fff;
+  padding: .5rem;
+  border: 1px solid #008fd6;
+  transition: all .3s ease-in-out;
+}
+
+section#results-content .box .footer a:hover {
+  background-color: #fff;
+  color: #008fd6;
+}
+
+section#results-content .page-link {
+  color: #008fd6;
+  border-color: #ccc;
+  margin: .2rem;
+  transition: all .3s ease-in-out;
+}
+
+section#results-content .page-link:hover {
+  color: #fff;
+  border-color: #008fd6;
+  background-color: #008fd6;
 }
 
 /* FOOTER */
