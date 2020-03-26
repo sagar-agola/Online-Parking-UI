@@ -18,7 +18,8 @@ body {
 /* OVERIDE DEFAULT STYLE */
 a:hover { text-decoration: none; }
 
-input:focus {
+input:focus,
+textarea:focus {
   border-color: #008fd6;
   box-shadow: 0 0 3px #008fd6;
 }
@@ -66,7 +67,7 @@ nav {
 }
 
 nav .nav-link {
-  padding: 2.1rem .5rem 1.9rem .5rem !important;
+  padding: 2.1rem 1rem 1.9rem 1rem !important;
   color: #008fd6;
   border-bottom: .25rem solid #fff;
   transition: all .3s ease-in-out;
@@ -279,6 +280,63 @@ section#home-why .box:hover {
   border-color: #008fd6;
 }
 
+section#home-options {
+  padding: 4rem 0;
+}
+
+section#home-options .header {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+section#home-options .header .hr {
+  width: 3rem;
+  height: .2rem;
+  background-color: #008fd6;
+  margin-top: .5rem;
+  margin: 1rem auto;
+}
+
+section#home-options img {
+  width: 100%;
+}
+
+section#home-options .box {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: .5rem;
+  border: 1px solid #fff;
+  border-radius: .25rem;
+  transition: all .3s ease-in-out;
+}
+
+section#home-options .box:hover {
+  border-color: #008fd6;
+}
+
+section#home-options .box .header {
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: .5rem;
+}
+
+section#home-options .box p {
+  padding: .5rem;
+  padding-top: 0;
+  margin: 0;
+}
+
+section#home-options .box .fa {
+  background-color: #fff;
+  color: #008fd6;
+  border: none;
+}
+
 section#home-faq {
   background-color: #eee;
   padding: 4rem 0;
@@ -299,6 +357,74 @@ section#home-faq .header .hr {
   margin: 1rem auto;
 }
 
+section#home-faq .faq-wrapper {
+  margin: 1rem 0;
+  border: 1px solid #fff;
+  border-radius: 0;
+  background-color: #fff;
+  transition: all .3s ease-in-out
+}
+
+section#home-faq .faq-wrapper:hover {
+  border-color: #008fd6;
+}
+
+section#home-faq .question {
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+section#home-contact {
+  padding: 4rem 0;
+}
+
+section#home-contact .header {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+section#home-contact .header .hr {
+  width: 3rem;
+  height: .2rem;
+  background-color: #008fd6;
+  margin-top: .5rem;
+  margin: 1rem auto;
+}
+
+section#home-contact input,
+section#home-contact textarea {
+  border-radius: 0;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  transition: all .3s ease-in-out;
+}
+
+section#home-contact input:hover,
+section#home-contact textarea:hover {
+  border-color: #008fd6;
+}
+
+section#home-contact input[type=submit] {
+  width: 20%;
+  border: 1px solid #008fd6;
+  background-color: #008fd6;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+section#home-contact input[type=submit]:hover {
+  background-color: #fff;
+  color: #008fd6;
+}
+
 /* FOOTER */
 footer {
   position: absolute;
@@ -316,13 +442,9 @@ footer .navbar-brand:hover {
   color: #008fd6;
 }
 
-footer a {
+footer p {
   color: #fff;
   transition: all .2s ease-in-out;
-}
-
-footer a:hover {
-  color: #008fd6;
 }
 
 @media screen and (max-width: 991px) {

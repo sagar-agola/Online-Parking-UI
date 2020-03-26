@@ -25,23 +25,23 @@
 				<div class="collapse navbar-collapse" id="mainNavbar">
 					<ul class="navbar-nav">
 						<li>
-							<a href="#" class="nav-link active">Profile</a>
+							<a href="#home-header" class="nav-link active">HOME</a>
 						</li>
 						<li>
-							<a href="#" class="nav-link">Address</a>
+							<a href="#home-why" class="nav-link">WHY US</a>
 						</li>
 						<li>
-							<a href="#" class="nav-link">Change Password</a>
+							<a href="#" class="nav-link">PARKING OPTIONS</a>
 						</li>
 						<li>
-							<a href="#" class="nav-link">My Bookings</a>
+							<a href="#" class="nav-link">CONTACT US</a>
 						</li>
 						<li>
-							<a href="#" class="nav-link">Parkings Lots</a>
+							<a href="#home-faq" class="nav-link">FAQ</a>
 						</li>
 					</ul>
 					<ul class="navbar-nav ml-auto">
-						<div class="d-flex flex-row justify-content-end m-2">
+						<!-- <div class="d-flex flex-row justify-content-end m-2">
 							<div>
 								<li class="my-auto mr-1">
 									<span>Welcome N3o</span>
@@ -52,19 +52,19 @@
 									<a href="#" class="nav-btn">Logout</a>
 								</li>
 							</div>
-						</div>
-						<!-- <div class="d-flex flex-row justify-content-end m-2">
+						</div> -->
+						<div class="d-flex flex-row justify-content-end m-2">
 							<div>
 								<li class="my-auto mr-1">
-									<a href="#" class="nav-btn">Login</a>
+									<a href="Login.html" class="nav-btn">Login</a>
 								</li>
 							</div>
 							<div>
 								<li class="m-0">
-									<a href="#" class="nav-btn">Register</a>
+									<a href="Register.html" class="nav-btn">Register</a>
 								</li>
 							</div>
-						</div> -->
+						</div>
 					</ul>
 				</div>
 			</nav>
@@ -150,6 +150,80 @@
 			</div>
 		</section>
 
+		<!-- SECTION : Parking options -->
+		<section id="home-options">
+			<div class="container">
+				<div class="header">
+					Parking Options
+					<div class="hr"></div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-md-4 d-flex flex-column justify-content-center">
+						<div class="box">
+							<div>
+								<div class="header text-right">
+									Short-Term Lot
+								</div>
+								<p class="text-right">
+									Short term parking lot offers you to book parking slot for short term, suitable for 1-2 days.
+								</p>
+							</div>
+							<div class="my-auto">
+								<i class="fa fa-3x fa-clock-o"></i>
+							</div>
+						</div>
+
+						<div class="box mt-5">
+							<div>
+								<div class="header text-right">
+									Long-Term Lot
+								</div>
+								<p class="text-right">
+									Long term parking lot offers you to book parking slot for long term in chip price, suitable for 1-2 weeks.
+								</p>
+							</div>
+							<div class="my-auto">
+								<i class="fa fa-3x fa-calendar"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<img src="./Images/parking-options.jpg" alt="Parking Options" />
+					</div>
+					<div class="col-md-4 d-flex flex-column justify-content-center">
+						<div class="box">
+							<div class="my-auto">
+								<i class="fa fa-3x fa-money"></i>
+							</div>
+							<div>
+								<div class="header text-left">
+									Economy Lot
+								</div>
+								<p>
+									If you have tight budget fot your vehical parking, no need to worry. We have Economy parking slots for you.
+								</p>
+							</div>
+						</div>
+
+						<div class="box mt-5">
+							<div class="my-auto">
+								<i class="fa fa-3x fa-bitcoin"></i>
+							</div>
+							<div>
+								<div class="header text-left">
+									Long-Term Lot
+								</div>
+								<p>
+									Long term parking lot offers you to book parking slot for long term in chip price, suitable for 1-2 weeks.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- SECTION : FAQ -->
 		<section id="home-faq">
 			<div class="container">
 				<div class="header">
@@ -158,20 +232,60 @@
 				</div>
 
 				<div class="accordion" id="accordion">
-					<div class="question" id="question1" data-toggle="collapse" data-target="#answer1">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nam? Fuga doloribus hic ?
-					</div>
-					<div id="answer1" class="collapse" data-parent="#accordion">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					<div class="faq-wrapper">
+						<div class="question" data-toggle="collapse" data-target="#answer1">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nam? Fuga doloribus hic ?
+						</div>
+						<div id="answer1" class="collapse px-3 pb-3" data-parent="#accordion">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						</div>
 					</div>
 
-					<div class="question" id="question1" data-toggle="collapse" data-target="#answer2">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nam? Fuga doloribus hic ?
+					<div class="faq-wrapper">
+						<div class="question" data-toggle="collapse" data-target="#answer2">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nam? Fuga doloribus hic ?
+						</div>
+						<div id="answer2" class="collapse px-3 pb-3" data-parent="#accordion">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						</div>
 					</div>
-					<div id="answer2" class="collapse" data-parent="#accordion">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+
+					<div class="faq-wrapper">
+						<div class="question" data-toggle="collapse" data-target="#answer3">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nam? Fuga doloribus hic ?
+						</div>
+						<div id="answer3" class="collapse px-3 pb-3" data-parent="#accordion">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						</div>
 					</div>
 				</div>
+			</div>
+		</section>
+
+		<!-- SECTION : Contact Us -->
+		<section id="home-contact">
+			<div class="container">
+				<div class="header">
+					Contact Us
+					<div class="hr"></div>
+				</div>
+
+				<form class="mt-5 mb-0">
+					<div class="row">
+						<div class="col-6">
+							<input type="text" placeholder="Type your Full Name..." />
+						</div>
+						<div class="col-6">
+							<input type="text" placeholder="Type your Email..." />
+						</div>
+						<div class="col-12">
+							<textarea placeholder="Type your Message or query..." rows="7"></textarea>
+						</div>
+						<div class="col-12 text-center">
+							<input type="submit" value="Submit" />
+						</div>
+					</div>
+				</form>
 			</div>
 		</section>
 
@@ -180,11 +294,11 @@
 			<div class="d-flex flex-column flex-sm-row justify-content-between text-center">
 				<div>
 					<a class="navbar-brand mr-3" href="Index.html">
-							Online Parking
+						Online Parking
 					</a>
 				</div>
 				<div class="my-auto">
-					<a href="#" class="mx-1">CONTACT US</a>
+					<p>&copy; Copyright 2020 Online Parking</p>
 				</div>
 			</div>
 		</footer>
