@@ -90,6 +90,14 @@ nav .nav-btn:hover {
   background-color: rgba(0, 143, 214, .2)
 }
 
+.page-title {
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
 /* BOX */
 .box {
   background-color: #fff;
@@ -465,7 +473,7 @@ section#results-content .box p {
 
 section#results-content .box .footer {
   border-top: 1px solid #ccc;
-  padding: 1rem;
+  padding: 1rem .5rem;
   margin-top: .5rem;
   text-align: right;
 }
@@ -494,6 +502,40 @@ section#results-content .page-link:hover {
   color: #fff;
   border-color: #008fd6;
   background-color: #008fd6;
+}
+
+/* PARKING LOT DETAILS */
+main#parking-lot-details {
+  margin-top: 90px;  /* Navbar height */
+}
+
+main#parking-lot-details iframe {
+  width: 100%;
+}
+
+main#parking-lot-details .box {
+  background-color: #eee;
+  border-radius: 0;
+  padding: .75rem;
+  margin-bottom: 2rem;
+}
+
+main#parking-lot-details .box p {
+  margin: 0;
+  padding: .25rem 0;
+}
+
+main#parking-lot-details button {
+  background-color: #008fd6;
+  color: #fff;
+  border-radius: 0;
+  border: 1px solid #008fd6;
+  transition: all .3s ease-in-out;
+}
+
+main#parking-lot-details button:hover {
+  background-color: #fff;
+  color: #008fd6;
 }
 
 /* FOOTER */
