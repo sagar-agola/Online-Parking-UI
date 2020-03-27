@@ -1,0 +1,218 @@
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+
+    <title>Index - Online Parking</title>
+    <link rel="stylesheet" href="./Style/bootstrap.min.css" />
+    <link rel="stylesheet" href="./Style/Style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="padding-bottom: 98px;">
+    <header>
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand mr-3" href="Index.html">
+                Online Parking
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav">
+                    <li>
+                        <a href="#home-header" class="nav-link active">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#home-why" class="nav-link">WHY US</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">PARKING OPTIONS</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">CONTACT US</a>
+                    </li>
+                    <li>
+                        <a href="#home-faq" class="nav-link">FAQ</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <!-- <div class="d-flex flex-row justify-content-end m-2">
+							<div>
+								<li class="my-auto mr-1">
+									<span>Welcome N3o</span>
+								</li>
+							</div>
+							<div>
+								<li class="m-0">
+									<a href="#" class="nav-btn">Logout</a>
+								</li>
+							</div>
+						</div> -->
+                    <div class="d-flex flex-row justify-content-end m-2">
+                        <div>
+                            <li class="my-auto mr-1">
+                                <a href="Login.html" class="nav-btn">Login</a>
+                            </li>
+                        </div>
+                        <div>
+                            <li class="m-0">
+                                <a href="Register.html" class="nav-btn">Register</a>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="confirm-booking">
+        <div class="container">
+            <div class="page-title">
+                Shree Hari Krishna Parking Lot
+            </div>
+
+            <section id="confirm-booking-form" class="box box-700">
+                <div class="sub-header main-color-green">
+                    Confirm Booking
+                </div>
+
+                <p class="text-center py-3">
+                    Fill details below and make payment to confirm your booking. we will send you booking recceipt after
+                    confirmation.
+                </p>
+
+                <div class="primary-alert text-center mb-2">
+                    <b>Hourly Rate : </b> 15 INR
+                </div>
+
+                <form class="mb-0">
+                    <div class="form-group mt-3">
+                        <div class="d-flex justify-content-between main-color-green">
+                            <label>
+                                <b>Start Date Time</b>
+                            </label>
+                            <small>* Time must be in 24 hour format.</small>
+                        </div>
+                        <label class="main-color-green">
+                            Date
+                        </label>
+                        <input type="date" placeholder="Select Date of booking" />
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label class="main-color-green">Hour</label>
+                                <input type="number" placeholder="Type Booking start Hour..." />
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label class="main-color-green">Minute</label>
+                                <input type="number" placeholder="Type Booking start Minute..." />
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="form-group mt-4">
+                        <label class="main-color-green">
+                            <b>Booking Duration</b>
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label class="main-color-green">
+                                    Hour
+                                </label>
+                                <input type="number" placeholder="Type Booking duration Hour..." />
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label class="main-color-green">
+                                    Minute
+                                </label>
+                                <input type="number" placeholder="Type Booking duration Minute..." />
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="form-group mt-4">
+                        <label class="main-color-green">
+                            <b>Vehical Number</b>
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="form-group">
+                                <label class="main-color-green">
+                                    State Code
+                                </label>
+                                <input type="text" />
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="form-group">
+                                <label class="main-color-green">
+                                    District Code
+                                </label>
+                                <input type="number" />
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="form-group">
+                                <label class="main-color-green">
+                                    Series Code
+                                </label>
+                                <input type="text" />
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="form-group">
+                                <label class="main-color-green">
+                                    Number
+                                </label>
+                                <input type="number" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group text-center mb-0 mt-3">
+                        <input type="submit" value="Book Now" />
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="d-flex flex-column flex-sm-row justify-content-between text-center">
+            <div>
+                <a class="navbar-brand mr-3" href="Index.html">
+                    Online Parking
+                </a>
+            </div>
+            <div class="my-auto">
+                <p class="my-auto">&copy; Copyright 2020 Online Parking</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="./Script/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

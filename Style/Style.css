@@ -48,6 +48,19 @@ a.main-color:hover {
   color: #008fd6 !important;
 }
 
+.b-0 {
+  border-radius: 0;
+}
+
+.primary-alert {
+  border-radius: 0;
+  border: 1px solid #008fd6;
+  color: #008fd6;
+  padding: .5rem;
+  background-color: rgba(0, 143, 214, .1);
+  width: 100%;
+}
+
 /* NAVBAR */
 nav {
   background-color: #fff;
@@ -110,6 +123,10 @@ nav .nav-btn:hover {
 
 .box-600 {
   max-width: 600px;
+}
+
+.box-700 {
+  max-width: 700px;
 }
 
 .box .header {
@@ -557,7 +574,7 @@ main#parking-lot-details .slots-container .slot {
   color: #fff;
   border: 2px solid #5cb85c;
   border-radius: 0;
-  margin-top: .5rem;
+  display: inline-block;
   padding: .5rem;
   text-align: center;
   font-size: 1.2rem;
@@ -578,6 +595,19 @@ main#parking-lot-details .slots-container .slot.booked {
 main#parking-lot-details .slots-container .slot.booked:hover {
   background-color: #fff;
   color: #d9534f;
+}
+
+main#confirm-booking {
+  margin-top: 90px;  /* Navbar height */
+  background-color: #eee;
+  padding-bottom: 2rem;
+}
+
+section#confirm-booking-form {
+  background-color: #fff;
+  border-radius: 0;
+  /* padding: 1rem;
+  max-width: 700px; */
 }
 
 /* FOOTER */
