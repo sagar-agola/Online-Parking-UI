@@ -92,7 +92,7 @@ nav .nav-btn:hover {
 
 .page-title {
   padding: 2rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #333;
   text-align: center;
@@ -507,14 +507,22 @@ section#results-content .page-link:hover {
 /* PARKING LOT DETAILS */
 main#parking-lot-details {
   margin-top: 90px;  /* Navbar height */
+  background-color: #eee;
+}
+
+main#parking-lot-details .map-container {
+  padding: .4rem;
+  background-color: #fff;
+  margin-bottom: 5rem;
 }
 
 main#parking-lot-details iframe {
   width: 100%;
+  height: 90%;
 }
 
 main#parking-lot-details .box {
-  background-color: #eee;
+  background-color: #fff;
   border-radius: 0;
   padding: .75rem;
   margin-bottom: 2rem;
@@ -536,6 +544,40 @@ main#parking-lot-details button {
 main#parking-lot-details button:hover {
   background-color: #fff;
   color: #008fd6;
+}
+
+main#parking-lot-details .slots-container {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+main#parking-lot-details .slots-container .slot {
+  background-color: #5cb85c;
+  color: #fff;
+  border: 2px solid #5cb85c;
+  border-radius: 0;
+  margin-top: .5rem;
+  padding: .5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+main#parking-lot-details .slots-container .slot:hover {
+  background-color: #fff;
+  color: #5cb85c;
+}
+
+main#parking-lot-details .slots-container .slot.booked {
+  background-color: #d9534f;
+  border-color: #d9534f
+}
+
+main#parking-lot-details .slots-container .slot.booked:hover {
+  background-color: #fff;
+  color: #d9534f;
 }
 
 /* FOOTER */
