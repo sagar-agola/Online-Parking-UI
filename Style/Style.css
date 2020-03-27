@@ -599,7 +599,7 @@ main#parking-lot-details .slots-container .slot.booked:hover {
 }
 
 main#confirm-booking {
-  margin-top: 90px;  /* Navbar height */
+  margin-top: 89px;  /* Navbar height */
   background-color: #eee;
   padding-bottom: 2rem;
 }
@@ -664,16 +664,4 @@ footer .navbar-brand:hover {
 footer p {
   color: #fff;
   transition: all .2s ease-in-out;
-}
-
-@media screen and (max-width: 991px) {
-  nav {
-    padding-bottom: .8rem !important;
-  }
-  nav .nav-link {
-    padding: .2rem .5rem !important;
-    border: none;
-    border-right: .25rem solid #fff;
-    text-align: right;
-  }
 }
