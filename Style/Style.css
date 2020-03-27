@@ -21,6 +21,7 @@ a:hover { text-decoration: none; }
 input:focus,
 textarea:focus {
   border-color: #008fd6;
+  outline-color: #008fd6;
   box-shadow: 0 0 3px #008fd6;
 }
 
@@ -603,11 +604,44 @@ main#confirm-booking {
   padding-bottom: 2rem;
 }
 
-section#confirm-booking-form {
+section#confirm-booking-form,
+section#payment {
   background-color: #fff;
   border-radius: 0;
-  /* padding: 1rem;
-  max-width: 700px; */
+}
+
+section#payment .sub-header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+section#payment .card {
+  margin-right: 2rem;
+  padding: 1rem;
+  background-color: #eee;
+  border-radius: 0;
+  border: 1px solid #eee;
+  transition: all .3s ease-out;
+}
+
+section#payment .card:hover {
+  background-color: #fff;
+  border-color: #008fd6;
+  /* color: #fff; */
+}
+
+section#payment .card .header {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+section#payment .card p {
+  margin: .2rem 0;
 }
 
 /* FOOTER */
