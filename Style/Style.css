@@ -524,7 +524,7 @@ section#results-content .page-link:hover {
 
 /* PARKING LOT DETAILS */
 main#parking-lot-details {
-  margin-top: 90px;  /* Navbar height */
+  margin-top: 87px;  /* Navbar height */
   background-color: #eee;
 }
 
@@ -536,7 +536,7 @@ main#parking-lot-details .map-container {
 
 main#parking-lot-details iframe {
   width: 100%;
-  height: 90%;
+  height: 87%;
 }
 
 main#parking-lot-details .box {
