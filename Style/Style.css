@@ -596,6 +596,7 @@ main#parking-lot-details .slots-container .slot.booked {
 main#parking-lot-details .slots-container .slot.booked:hover {
   background-color: #fff;
   color: #d9534f;
+  cursor: not-allowed;
 }
 
 main#confirm-booking {
