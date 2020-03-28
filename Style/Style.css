@@ -50,7 +50,7 @@ a.main-color:hover {
 }
 
 .b-0 {
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 .primary-alert {
@@ -618,8 +618,8 @@ section#payment .sub-header {
   padding: 1rem 0;
 }
 
-section#payment .card {
-  margin-right: 2rem;
+.card {
+  /* margin-right: 2rem; */
   padding: 1rem;
   background-color: #eee;
   border-radius: 0;
@@ -627,27 +627,32 @@ section#payment .card {
   transition: all .3s ease-out;
 }
 
-section#payment .card:hover {
+.card:hover {
   background-color: #fff;
   border-color: #008fd6;
-  /* color: #fff; */
 }
 
-section#payment .card .header {
+.card .header {
   font-size: 1.4rem;
   font-weight: bold;
   color: #333;
   text-align: center;
-  padding-bottom: 1rem;
+  padding: 0 0 1rem 0;
 }
 
-section#payment .card p {
+.card p {
   margin: .2rem 0;
 }
 
 section#bookings-search-header {
   padding-top: 50px;
   height: 250px;
+  background-color: #eee;
+}
+
+section#booking-details {
+  padding: 3rem 0;
+  padding-top: calc(88px + 3rem);
   background-color: #eee;
 }
 
