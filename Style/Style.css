@@ -645,6 +645,12 @@ section#payment .card p {
   margin: .2rem 0;
 }
 
+section#bookings-search-header {
+  padding-top: 50px;
+  height: 250px;
+  background-color: #eee;
+}
+
 /* FOOTER */
 footer {
   position: absolute;
