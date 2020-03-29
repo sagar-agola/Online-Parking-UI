@@ -149,15 +149,20 @@ nav .nav-btn:hover {
   padding: .9rem;
 }
 
-.box input {
+.box input,
+.box textarea,
+.box select {
   border-radius: .1rem;
   border: 1px solid #ccc;
   padding: .8rem;
   width: 100%;
+  color: #777;
   transition: all .3s ease-in-out;
 }
 
-.box input:hover {
+.box input:hover,
+.box textarea:hover,
+.box select:hover {
   border-color: #008fd6;
 }
 
@@ -173,6 +178,64 @@ nav .nav-btn:hover {
   font-weight: bold;
   background-color: #fff;
   color: #008fd6;
+}
+
+.step-header {
+  margin-top: -25px;
+}
+
+.step {
+  cursor: pointer
+}
+
+.step .step-number {
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 3px 8px;
+  border: 1px solid #ccc;
+  color: #000;
+  transition: all .3s ease-in-out;;
+}
+
+.step .step-number:hover,
+.step .step-number.active {
+  background-color: #5cb85c;
+  color: #fff;
+}
+.step .step-text {
+  padding-top: .5rem;
+  max-width: 90px;
+  color: #999;
+}
+
+.card {
+  padding: 1rem;
+  background-color: #eee;
+  border-radius: 0;
+  border: 1px solid #eee;
+  transition: all .3s ease-out;
+}
+
+.card:hover {
+  background-color: #fff;
+  border-color: #008fd6;
+}
+
+.card .header {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  padding: 0 0 1rem 0;
+}
+
+.card p {
+  margin: .2rem 0;
+}
+
+.tan-content {
+  display: none;
+  transition: all 2s ease-in-out;
 }
 
 /* INDEX PAGE */
@@ -618,32 +681,6 @@ section#payment .sub-header {
   padding: 1rem 0;
 }
 
-.card {
-  /* margin-right: 2rem; */
-  padding: 1rem;
-  background-color: #eee;
-  border-radius: 0;
-  border: 1px solid #eee;
-  transition: all .3s ease-out;
-}
-
-.card:hover {
-  background-color: #fff;
-  border-color: #008fd6;
-}
-
-.card .header {
-  font-size: 1.4rem;
-  font-weight: bold;
-  color: #333;
-  text-align: center;
-  padding: 0 0 1rem 0;
-}
-
-.card p {
-  margin: .2rem 0;
-}
-
 section#bookings-search-header {
   padding-top: 50px;
   height: 250px;
@@ -654,6 +691,12 @@ section#booking-details {
   padding: 3rem 0;
   padding-top: calc(88px + 3rem);
   background-color: #eee;
+}
+
+main#add-update {
+  background-color: #eee;
+  padding: 88px 2rem 2rem 2rem;
+  min-height: 100%;
 }
 
 /* FOOTER */
