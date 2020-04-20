@@ -728,6 +728,41 @@ main#dashboard .card .button {
   width: 33%;
 }
 
+main#slot-details {
+  margin-top: 87px;  /* Navbar height */
+  background-color: #eee;
+  padding-bottom: 2rem;
+}
+
+main#slot-details .card {
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 2rem;
+  transition: all .3s ease-in-out;
+}
+
+main#slot-details .booking-card {
+  border-color: #008fd6;
+  color: #008fd6;
+}
+
+main#slot-details .booking-card:hover {
+  border-left-width: 6px;
+  border-right-width: 6px;
+  border-radius: 10px;
+}
+
+main#slot-details .active-card {
+  border-color: #d9534f;
+  color: #d9534f;
+}
+
+main#slot-details .active-card:hover {
+  border-left-width: 6px;
+  border-right-width: 6px;
+  border-radius: 10px;
+}
+
 /* FOOTER */
 footer {
   position: absolute;
